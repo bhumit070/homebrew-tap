@@ -3,9 +3,9 @@
 cask "tabula" do
   arch arm: "apple-silicon", intel: "intel"
 
-  version "0.1.7"
-  sha256 arm:   "1873ab624a1517b95d75c7b5c3f0752d6572246344c12bbb5b68ecaa88eea39f",
-         intel: "9393be80fc01acd14da9373ad481a4b16ba12c0f91a2dd2b315561afb1093bcf"
+  version "0.1.8"
+  sha256 arm:   "316e242678660fecb3213892aa8e1d1d4b4348acdfe27257fc055d5ef29b9491",
+         intel: "b26d9c3a1bd1105fcfd69c204c90af86c4eb0d95f2c61d4f1e8d89c9f2fb9180"
 
   url "https://github.com/bhumit070/tableplus_rs/releases/download/v#{version}/Tabula-#{version}-macos-#{arch}.dmg"
   name "Tabula"
